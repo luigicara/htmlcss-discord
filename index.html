@@ -11,7 +11,7 @@
 <body>
     <header>
         <!-- barra di navigazione -->
-        <nav>
+        <nav class="topbar">
             <!-- logo -->
             <div class="logo">
                 <img src="img/logo.svg" alt="">
@@ -123,7 +123,7 @@
                 <img src="img/item4-big.svg" alt="">
 
                 <div>
-                    <h3>
+                    <h3 id="adventure">
                         Pronto a iniziare la tua avventura?
                     </h3>
 
@@ -139,15 +139,75 @@
 
     <footer>
         <div class="flex container">
-            <div id="social"></div>
-            <ul id="prodotto"></ul>
-            <ul id="compagnia"></ul>
-            <ul id="risorse"></ul>
-            <ul id="norme"></ul>
+            <!-- social -->
+            <div id="social">
+                <h3>Il tuo posto per parlare</h3>
+
+                <div class="language">
+                    <img src="img/ita.png" alt="">
+                    &nbsp;Italiano
+                </div>
+            </div>
+
+            <!-- contatti -->
+            <div class="flex contact">
+
+                <ul id="prodotto">
+                    Prodotto
+                    <li>Scarica</li>
+                    <li>Perchè Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                    <li>Assistenza</li>
+                </ul>
+                
+                <ul id="compagnia">
+                    Compagnia
+                    <li>Chi siamo</li>
+                    <li>Lavora con noi</li>
+                    <li>Marchio</li>
+                    <li>Redazione</li>
+                    <li>Negozio</li>
+                </ul>
+                
+                <ul id="risorse">
+                    Risorse
+                    <li>Scarica</li>
+                    <li>Perchè Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                    <li>Assistenza</li>
+                    <li>Scarica</li>
+                    <li>Perchè Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                    <li>Assistenza</li>
+                </ul>
+                
+                <ul id="norme">
+                    Norme
+                    <li>Scarica</li>
+                    <li>Perchè Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                    <li>Assistenza</li>
+                </ul>
+            </div>
         </div>
 
-        <div class="container">
-            <div id="banner"></div>
+        <!-- logo e registrazione -->
+        <div class="final container">
+            <div class="topbar" id="banner">
+
+                <div class="logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+            
+                <div class="login">
+                    <button id="signup">Registrati</button>
+                </div>
+
+            </div>
         </div>
     </footer>
 </body>    
