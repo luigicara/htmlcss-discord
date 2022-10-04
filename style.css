@@ -1,0 +1,250 @@
+/* general rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Whitney', sans-serif;
+    font-size: 20px;
+}
+
+/* header */
+header {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-image: url("img/jumbo.png ");
+    background-size: cover;
+    background-color: #255ee9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu {
+    min-width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: inherit;
+    list-style: none;
+}
+
+.menu ul li {
+    background-color: inherit;
+    color: white;
+}
+
+.login {
+    width: 150px;
+    text-align: end;
+}
+
+button {
+    font-size: 17px;
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+header section {
+    width: 60%;
+    margin: 150px auto;
+    color: white;
+}
+
+.title  {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.subtitle  {
+    width: 85%;
+    margin: 35px auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.bottom-btns {
+    text-align: center;
+}
+
+div a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 25px;
+    border-radius: 35px;
+}
+
+.download {
+    color: black;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.download:before {
+    content: '\2193';
+}
+
+.browser {
+    color: white;
+    background-color: black;
+}
+
+/* main */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container > section {
+    width: 100%;
+    padding: 200px 0;
+}
+
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.two-columns > img {
+    width: 64%;
+}
+
+.two-columns > div {
+    width: 34%;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paragraph h2 {
+    font-size: 55px;
+}
+
+.bottom {
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+#first {
+    padding-top: 0;
+}
+
+#second {
+    flex-direction: row-reverse;
+}
+
+#last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#last > div:first-child {
+    width: 90%;
+}
+
+#last h2 {
+    font-size: 55px;
+    text-align: center;
+}
+
+#last-section {
+    text-align: center;
+}
+
+#last > img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-size: 28px;
+    background-image: url('img/stars.svg');
+    background-position: center;
+    background-size: auto;
+    padding: 20px 40px 0 40px;
+}
+
+#mac {
+    color: white;
+    background-color: #7289da;
+}
+
+.foot {
+    margin-top: 100px;
+}
+
+/* footer */
+footer {
+    padding-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-color: #23272a;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid green;
+}
+
+#social {
+    width: 20%;
+}
+
+ul {
+    width: 13%;
+}
+
+#prodotto {
+
+}
+
+#compagnia {
+
+}
+
+#risorse {
+    
+}
+
+#norme {
+  
+}
+
+#banner {
+    width: 100%;
+    /* DEBUG */
+    min-height: 200px;
+    margin-top: 50px;
+    background-color: orange;
+}
+
